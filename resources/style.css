@@ -108,3 +108,44 @@ header ul li a {
   text-align:center;
   padding-bottom:20px;
 }
+/*Location content*/
+.body-container .location-container {
+  display:flex;
+  justify-content:center;
+  text-align:center;
+  height:500px;
+  width:1200px;
+  margin-top:70px;
+  background-image: url(./img/img-locations-background.jpg);
+}
+.body-container .location-container h2 {
+  padding-top:50px;
+}
+/*contact content*/
+.body-container #contact {
+  display:flex;
+  flex-direction:column;
+  flex-wrap:wrap;
+  text-align:center;
+  width:1000px;
+  height:200px;
+}
+.body-container #contact h2 {
+  padding:15px;
+  margin:0;
+}
+.body-container #contact h5 {
+  padding:15px;
+  margin:0;
+}
+/*footer content*/
+footer .body-container {
+  display:flex;
+  flex-direction:column;
+  flex-wrap:wrap;
+  text-align:left;
+  width:1000px;
+}
+footer .body-container h5 {
+  margin-left:20px;
+}
