@@ -1,0 +1,110 @@
+/* Base Spec */
+body {
+  background-color:black;
+  font-size:22px;
+  font-family:Helvetica;
+  color:seashell;
+  margin:0;
+  padding:0;
+}
+
+/* Nav cssl */
+header {
+  display:flex;
+  position:fixed;
+  align-content:center;
+  z-index:1;
+  background-color:black;
+  border-bottom:1px solid seashell;
+  height:69px;
+  width:100%;
+}
+header .header-logo {
+  display:flex;
+  align-items:center;
+  flex-grow:1;
+  padding-left:10px;
+}
+header .header-logo img {
+  height:59px;
+}
+header nav {
+  display:flex;
+  align-items:center;
+}
+header ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+header ul li {
+  float: left;
+}
+header ul li a {
+  display: block;
+  padding: 8px;
+  color:seashell;
+}
+
+/* Body Content */
+.body-container {
+  display:flex;
+  justify-content:center;
+  z-index:0;
+}
+/*Hero Banner content */
+.body-container .hero-container {
+  display:flex;
+  flex-direction:column;
+  flex-wrap:wrap;
+  justify-content:center;
+  text-align:center;
+  height:700px;
+  width:1200px;
+  padding-top:70px;
+  background-image: url(./img/img-mission-background.jpg);
+}
+.body-container .hero-container h2 {
+  background-color:black;
+  padding:10px;
+  margin:0;
+}
+.body-container .hero-container h4 {
+  background-color:black;
+  padding:10px;
+  margin:0;
+}
+/*Tea of the Month Content */
+.body-container #tea-month {
+  display:flex;
+  justify-content:center;
+  flex-direction:column;
+  flex-wrap:wrap;
+  text-align:center;
+  padding-top:70px;
+  width:1000px;
+}
+.body-container #tea-month h2 {
+  padding:10px;
+  margin:0;
+}
+.body-container #tea-month h4 {
+  padding:10px;
+  margin:0;
+}
+.tea-card-container {
+  display:flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+  justify-content:space-around;
+  width:1000px;
+}
+.tea-card img {
+  height:200px;
+  width:300px;
+}
+.body-container #tea-month .tea-card h4 {
+  text-align:center;
+  padding-bottom:20px;
+}
