@@ -58,7 +58,6 @@ header ul li a {
 .body-container .hero-container {
   display:flex;
   flex-direction:column;
-  flex-wrap:wrap;
   justify-content:center;
   text-align:center;
   height:700px;
@@ -81,7 +80,6 @@ header ul li a {
   display:flex;
   justify-content:center;
   flex-direction:column;
-  flex-wrap:wrap;
   text-align:center;
   padding-top:70px;
   width:1000px;
@@ -114,7 +112,6 @@ header ul li a {
 }
 /*Location content*/
 .body-container #location {
-  flex-direction:column;
   text-align:center;
   height:500px;
   width:1200px;
@@ -148,9 +145,6 @@ header ul li a {
 }
 /*contact content*/
 .body-container #contact {
-  display:flex;
-  flex-direction:column;
-  flex-wrap:wrap;
   text-align:center;
   width:1000px;
   height:200px;
@@ -165,9 +159,7 @@ header ul li a {
 }
 /*footer content*/
 footer .body-container {
-  display:flex;
   flex-direction:column;
-  flex-wrap:wrap;
   text-align:left;
   width:1000px;
 }
