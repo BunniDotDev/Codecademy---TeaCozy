@@ -6,6 +6,7 @@ body {
   color:seashell;
   margin:0;
   padding:0;
+  opacity:0.9;
 }
 
 /* Nav cssl */
@@ -93,11 +94,14 @@ header ul li a {
   padding:10px;
   margin:0;
 }
+.tea-card {
+  margin:0 15px;
+}
 .tea-card-container {
   display:flex;
   flex-direction:row;
   flex-wrap:wrap;
-  justify-content:space-around;
+  justify-content:center;
   width:1000px;
 }
 .tea-card img {
@@ -109,17 +113,38 @@ header ul li a {
   padding-bottom:20px;
 }
 /*Location content*/
-.body-container .location-container {
-  display:flex;
-  justify-content:center;
+.body-container #location {
+  flex-direction:column;
   text-align:center;
   height:500px;
   width:1200px;
+  padding-top:70px;
   margin-top:70px;
   background-image: url(./img/img-locations-background.jpg);
 }
-.body-container .location-container h2 {
-  padding-top:50px;
+.body-container #location h2 {
+  padding:10px;
+  margin:0;
+}
+.location-container {
+  display:flex;
+  justify-content:center;
+  flex-wrap:wrap;
+}
+.location-box {
+  background-color:black;
+  width:300px;
+  flex-basis:280px;
+  margin:15px 20px;
+  padding:10px;
+  opacity:1;
+}
+.location-box h3 {
+  margin:0;
+  padding:10px;
+}
+.location-box p {
+  margin:22px 0;
 }
 /*contact content*/
 .body-container #contact {
